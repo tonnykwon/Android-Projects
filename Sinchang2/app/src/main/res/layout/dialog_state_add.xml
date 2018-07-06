@@ -1,0 +1,240 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="800sp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginBottom="10sp">
+
+
+        <TextView
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="바코드"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="회사"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="제품명"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="비고"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="누적 개수"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="기준 개수"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="박스 개수"
+            android:textSize="30sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginBottom="25sp"
+        >
+
+        <EditText
+            android:id="@+id/stateBarcode"
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:textSize="35sp"
+            android:maxLength="13"
+            />
+
+
+        <EditText
+            android:id="@+id/stateCompany"
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:textSize="35sp"
+            android:maxLength="13"
+            />
+
+        <EditText
+            android:id="@+id/stateName"
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:textSize="35sp"
+            />
+
+        <EditText
+            android:id="@+id/stateNote"
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:textSize="35sp"
+            />
+
+        <EditText
+            android:id="@+id/stateAccum"
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:textSize="35sp"
+            />
+
+        <EditText
+            android:id="@+id/stateCriteria"
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:textSize="35sp"
+            />
+
+        <EditText
+            android:id="@+id/stateBoxn"
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:textSize="35sp"
+            />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/addRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginBottom="25sp"
+        >
+
+        <TextView
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:text="대분류"
+            android:textSize="30sp"/>
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radioBtn1"
+            android:textSize="30sp"
+            android:onClick="onBigCategoryBtn"
+            />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radioBtn2"
+            android:textSize="30sp"
+            android:onClick="onBigCategoryBtn"
+            />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radioBtn3"
+            android:textSize="30sp"
+            android:onClick="onBigCategoryBtn"
+            />
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radioBtn4"
+            android:textSize="30sp"
+            android:onClick="onBigCategoryBtn"
+            />
+
+        <RadioButton
+            android:id="@+id/radio5"
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radioBtn5"
+            android:textSize="30sp"
+            android:onClick="onBigCategoryBtn"
+            />
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/addRadioGroupSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginBottom="25sp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:text="소분류"
+            android:textSize="30sp"/>
+
+    </RadioGroup>
+
+
+</LinearLayout>

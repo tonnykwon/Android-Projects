@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/selectedActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tony.tonythetiger.memind.SelectedItemActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:onClick="onSaveBtn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="15dp"
+            android:visibility="gone"
+            android:background="@drawable/check"/>
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:onClick="onDeleteBtn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="15dp"
+            android:background="@drawable/trashcan"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp">
+
+            <TextView
+                android:id="@+id/date"
+                android:text="date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="16dp"/>
+
+            <ViewSwitcher
+                android:id="@+id/questionSwitcher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/question"
+                    android:text="date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="onQuestionClicked"
+                    android:textSize="15dp"
+                    android:layout_margin="16dp"
+                    android:gravity="center_horizontal"/>
+
+                <EditText
+                    android:id="@+id/questionEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:background="@null"
+                    android:layout_margin="16dp"
+                    android:gravity="center_horizontal"/>
+
+            </ViewSwitcher>
+
+
+            <RatingBar
+                android:id="@+id/ratingbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                style="@style/starRatingBar"/>
+
+
+            <ViewSwitcher
+                android:id="@+id/experienceSwitcher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/experience"
+                    android:text="date"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:clickable="true"
+                    android:onClick="onExperienceClicked"
+                    android:textSize="15dp"
+                    android:layout_margin="16dp"
+                    android:gravity="center_horizontal"/>
+
+                <EditText
+                    android:id="@+id/experienceEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:textSize="15dp"
+                    android:background="@null"
+                    android:layout_margin="16dp"
+                    android:gravity="center_horizontal"
+                    />
+
+            </ViewSwitcher>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

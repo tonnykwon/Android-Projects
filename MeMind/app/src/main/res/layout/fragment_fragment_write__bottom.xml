@@ -1,0 +1,108 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tony.tonythetiger.memind.FragmentWrite_Bottom"
+    android:id="@+id/fragmentbot">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/onSaveBtn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="15dp"
+            android:background="@drawable/check"
+            />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:id="@+id/LinearBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="70dp">
+
+
+                        <TextView
+                            android:id="@+id/datepicker"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="25dp"
+                            android:layout_gravity="center_vertical"
+                            />
+
+                        <Button
+                            android:layout_marginLeft="5dp"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/calendar"/>
+
+                    </LinearLayout>
+
+                    <RatingBar
+                        style="@style/starRatingBar"
+                        android:id="@+id/ratingbar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+
+                        />
+                    <functions.CustomScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/scrollView"
+                        >
+
+                        <LinearLayout
+                                android:id="@+id/editLayout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+
+                                <EditText
+                                    android:id="@+id/exprience"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="250dp"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"
+                                    android:background="#11000000"
+                                    android:gravity="center"
+                                    android:textSize="15dp"
+                                    android:hint="경험을 적어주세요"
+                                    />
+
+                                <EditText
+                                    android:id="@+id/question"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:padding="10dp"
+                                    android:layout_margin="25dp"
+                                    android:layout_marginTop="30dp"
+                                    android:background="#11000000"
+                                    android:gravity="center"
+                                    android:textSize="15dp"
+                                    android:hint="질문을 적어주세요"
+                                    android:maxLines="2"
+                                    android:maxLength="48"/>
+
+                            </LinearLayout>
+
+                        </functions.CustomScrollView>
+
+                </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tony.tonythetiger.icozy.SettingActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp">
+
+            <TextView
+                android:id="@+id/blindAutoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="블라인드 자동조정"
+                android:layout_marginLeft="24dp"
+                android:textColor="#ff000000"
+                android:layout_alignBaseline="@+id/listText"
+                android:layout_alignBottom="@+id/listText"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true" />
+
+            <Button
+                android:id="@+id/listButton"
+                android:layout_width="57dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/icon_check"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#44000000"
+                android:layout_alignParentBottom="true"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp">
+
+            <TextView
+                android:id="@+id/bluetoothText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="blueToothBtn"
+                android:textSize="16dp"
+                android:text="기기 연결"
+                android:layout_marginLeft="24dp"
+                android:textColor="#ff000000"
+                android:layout_alignBaseline="@+id/listText"
+                android:layout_alignBottom="@+id/listText"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true" />
+
+            <Button
+                android:id="@+id/bluetoothBtn"
+                android:onClick="blueToothBtn"
+                android:layout_width="57dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/icon_plus"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#44000000"
+                android:layout_alignParentBottom="true"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp">
+
+            <TextView
+                android:id="@+id/energySaveText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="에너지 절약 모드"
+                android:layout_marginLeft="24dp"
+                android:textColor="#ff000000"
+                android:layout_alignBaseline="@+id/listText"
+                android:layout_alignBottom="@+id/listText"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true" />
+
+            <Button
+                android:id="@+id/energySaveBtn"
+                android:layout_width="57dp"
+                android:layout_height="40dp"
+                android:onClick="energyBtn"
+                android:layout_gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/icon_on"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#44000000"
+                android:layout_alignParentBottom="true"
+                />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

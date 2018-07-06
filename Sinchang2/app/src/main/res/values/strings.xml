@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Sinchang</string>
+    <string name="radioBtn1">과자</string>
+    <string name="radioBtn2">음료</string>
+    <string name="radioBtn3">담배</string>
+    <string name="radioBtn4">아이스크림</string>
+    <string name="radioBtn5">기타</string>
+
+    <string-array name = "radio1">
+        <item name="category0">초콜렛</item>
+        <item name="category1">껌</item>
+        <item name="category2">캔디</item>
+        <item name="category3">과자류</item>
+        <item name="category4">간식</item>
+    </string-array>
+
+    <string-array name = "radio2">
+        <item name="category0">커피</item>
+        <item name="category4">생수</item>
+        <item name="category4">쥬스</item>
+        <item name="category5">청량</item>
+        <item name="category6">스포츠</item>
+        <item name="category7">에너지</item>
+        <item name="category8">건강</item>
+    </string-array>
+
+    <string-array name = "radio3">
+        <item name="category0">담배</item>
+    </string-array>
+
+    <string-array name = "radio4">
+        <item name="category0">콘</item>
+        <item name="category1">튜브</item>
+        <item name="category2">하드</item>
+        <item name="category3">샌드</item>
+    </string-array>
+
+    <string-array name = "radio5">
+        <item name="category0">생필품</item>
+        <item name="category1">잡화</item>
+        <item name="category2">의양외품</item>
+        <item name="category3">기타</item>
+    </string-array>
+
+
+</resources>

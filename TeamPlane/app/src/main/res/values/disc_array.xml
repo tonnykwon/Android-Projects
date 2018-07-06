@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="disc_array">
+        <item>절제하는</item>
+        <item>강력한</item>
+        <item>꼼꼼한</item>
+        <item>표현력 있는</item>
+        <item>개척적인</item>
+        <item>정확한</item>
+        <item>흥미진진한</item>
+        <item>만족스러운</item>
+        <item>기꺼이하는</item>
+        <item>활기있는</item>
+        <item>대담한</item>
+        <item>정교한</item>
+        <item>논쟁을 좋아하는</item>
+        <item>회의적인</item>
+        <item>주저하는</item>
+        <item>예측할 수 없는</item>
+        <item>공손한</item>
+        <item>사교적인</item>
+        <item>참을성이 있는</item>
+        <item>무서움을 모르는</item>
+        <item>설득력 있는</item>
+        <item>독립심이 강한</item>
+        <item>논리적인</item>
+        <item>온화한</item>
+        <item>신중한</item>
+        <item>차분한</item>
+        <item>과단성 있는</item>
+        <item>파티를 좋아하는</item>
+        <item>인기 있는</item>
+        <item>고집 있는</item>
+        <item>완벽주의자</item>
+        <item>인심 좋은</item>
+        <item>변화가 많은</item>
+        <item>수줍음을 타는</item>
+        <item>느긋한</item>
+        <item>완고한</item>
+        <item>체계적인</item>
+        <item>낙관적인</item>
+        <item>의지가 강한</item>
+        <item>친절한</item>
+        <item>엄격한</item>
+        <item>겸손한</item>
+        <item>상냥한</item>
+        <item>말주변이 좋은</item>
+        <item>호의적인</item>
+        <item>빈틈없는</item>
+        <item>놀기 좋아하는</item>
+        <item>의지가 강한</item>
+        <item>참신한</item>
+        <item>모험적인</item>
+        <item>절제된</item>
+        <item>신중한</item>
+        <item>참는</item>
+        <item>성실한</item>
+        <item>공격적인</item>
+        <item>매력 있는</item>
+        <item>열정적인</item>
+        <item>분석적인</item>
+        <item>동정심이 많은</item>
+        <item>단호한</item>
+        <item>지도력 있는</item>
+        <item>충동적인</item>
+        <item>느린</item>
+        <item>비판적인</item>
+        <item>일관성 있는</item>
+        <item>영향력 있는</item>
+        <item>생기 있는</item>
+        <item>느긋한</item>
+        <item>유력한</item>
+        <item>친절한</item>
+        <item>독립적인</item>
+        <item>정돈된</item>
+        <item>이상주의적인</item>
+        <item>평판이 좋은</item>
+        <item>쾌활한</item>
+        <item>솔직한</item>
+        <item>참을성 없는</item>
+        <item>진지한</item>
+        <item>미루는</item>
+        <item>감성적인</item>
+        <item>경쟁심이 있는</item>
+        <item>자발적인</item>
+        <item>충성스러운</item>
+        <item>사려 깊은</item>
+        <item>희생적인</item>
+        <item>이해심 많은</item>
+        <item>설득력 있는</item>
+        <item>용기 있는</item>
+        <item>의존적인</item>
+        <item>변덕스러운</item>
+        <item>절제력 있는</item>
+        <item>밀어붙이는</item>
+        <item>포용력 있는</item>
+        <item>전통적인</item>
+        <item>사람을 부추기는</item>
+        <item>이끌어 가는</item>
+    </string-array>
+</resources>

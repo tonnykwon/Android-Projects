@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Icozy</string>
+    <string name="title">ICOZY BLIND</string>
+    <string name="chooseColor">무드등 조명색상을 설정해주세요.</string>
+</resources>

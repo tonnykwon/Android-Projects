@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tony.tonythetiger.icozy.LightingActivity">
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:text="확인"
+        android:onClick="setColor"
+        android:id="@+id/button"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.912"
+        android:background="@drawable/bt_gray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chooseColor"
+        android:textSize="14dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLayout"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintVertical_bias="0.636"
+        android:textColor="#ff000000"/>
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.41">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="29dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="29dp"
+            >
+
+            <Button
+                android:onClick="whiteBtn"
+                android:layout_width="52dp"
+                android:layout_height="75dp"
+                android:background="@drawable/lightbulb_w"
+                android:layout_marginRight="31dp"
+                />
+
+            <Button
+                android:onClick="redBtn"
+                android:layout_width="52dp"
+                android:layout_height="75dp"
+                android:background="@drawable/lightbulb_r"
+                android:layout_marginRight="31dp" />
+
+            <Button
+                android:onClick="orangeBtn"
+                android:layout_width="52dp"
+                android:layout_height="75dp"
+                android:background="@drawable/lightbulb_o"
+                android:layout_marginRight="31dp" />
+
+            <Button
+                android:onClick="pinkBtn"
+                android:layout_width="52dp"
+                android:layout_height="75dp"
+                android:background="@drawable/lightbulb_p"  />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:onClick="yellowBtn"
+                android:layout_width="52dp"
+                android:layout_height="75dp"
+                android:background="@drawable/lightbulb_y"
+                android:layout_marginRight="31dp" />
+
+            <Button
+                android:onClick="greenBtn"
+                android:layout_width="52dp"
+                android:layout_height="75dp"
+                android:background="@drawable/lightbulb_g"
+                android:layout_marginRight="31dp"  />
+
+            <Button
+                android:onClick="blueBtn"
+                android:layout_width="52dp"
+                android:layout_height="75dp"
+                android:background="@drawable/lightbulb_b" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

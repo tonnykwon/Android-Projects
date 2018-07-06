@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sinchang/tonythetiger/sinchang/CVSList/CVSItem.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sinchang/tonythetiger/sinchang/CVSList/ListCVS.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sinchang/tonythetiger/sinchang/CVSList/ListCVSAdapter.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sinchang/tonythetiger/sinchang/CVSSoldList/ListCVSSold.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sinchang/tonythetiger/sinchang/CVSSoldList/ListCVSSoldAdapter.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sinchang/tonythetiger/sinchang/CVSSoldList/SoldItem.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sinchang/tonythetiger/sinchang/InOutList/InOutItem.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sinchang/tonythetiger/sinchang/InOutList/ListInOut.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sinchang/tonythetiger/sinchang/InOutList/ListInOutAdapter.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sinchang/tonythetiger/sinchang/ListV.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sinchang/tonythetiger/sinchang/ProductList/ListProduct.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sinchang/tonythetiger/sinchang/ProductList/ListProductAdapter.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sinchang/tonythetiger/sinchang/ProductList/ProductListItem.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sinchang/tonythetiger/sinchang/TextItem.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sinchang/tonythetiger/sinchang/TextListAdapter.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/cvs_item.xml" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/cvs_sold_item.xml" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_barcode.xml" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_cvs_number.xml" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_cvs_sold.xml" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_cvs_sold_edit.xml" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_inout.xml" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_product_list.xml" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/inout_item.xml" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/product_list_item.xml" charset="x-windows-949" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_cvssold"
+    tools:context="com.sinchang.tonythetiger.sinchang.CVSSoldActivity"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="날짜 선택"
+            android:textSize="30dp"/>
+
+        <DatePicker
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            android:id="@+id/dp"
+            />
+
+        <Button
+            android:layout_margin="20dp"
+            android:text="설정"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onDateSetBtn"/>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleLayout"
+        >
+
+        <LinearLayout
+            android:id="@+id/soldNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ff000000">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="35dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#ff000000"
+                android:layout_weight="2"
+                android:text="판매품목"
+                />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_weight="1"
+                android:text="종류"
+                />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_weight="1"
+                android:text="판매량"
+                />
+
+            <TextView
+                android:id="@+id/soldn"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_weight="1"
+                android:text="판매액"/>
+
+
+        </LinearLayout>
+
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/listView"
+            android:layout_below="@+id/soldNumber"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

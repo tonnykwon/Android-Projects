@@ -1,0 +1,153 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="800sp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginBottom="10sp">
+
+
+        <TextView
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="코드"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="분류"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="이름"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="박스 내 제품"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="원가"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="판매가"
+            android:textSize="30sp"
+            />
+
+
+        <TextView
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="바코드"
+            android:textSize="30sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginBottom="25sp"
+        >
+
+        <EditText
+            android:id="@+id/pCode"
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:textSize="35sp"
+            />
+
+        <EditText
+            android:id="@+id/pClass"
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:textSize="35sp"
+            />
+
+        <EditText
+            android:id="@+id/pName"
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:textSize="35sp"
+            />
+
+        <EditText
+            android:id="@+id/pPinboxn"
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:textSize="35sp"
+            />
+
+        <EditText
+            android:id="@+id/pCost"
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:textSize="35sp"
+            />
+
+        <EditText
+            android:id="@+id/pPrice"
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:textSize="35sp"
+            />
+
+
+        <EditText
+            android:id="@+id/pBarcode"
+            android:layout_width="133sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:textSize="35sp"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

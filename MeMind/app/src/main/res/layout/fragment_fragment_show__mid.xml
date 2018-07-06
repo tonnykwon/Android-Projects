@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tony.tonythetiger.memind.FragmentList_Top"
+    android:id="@+id/background">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <TextView
+            android:id="@+id/todayText"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="160dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="question"
+            android:textSize="20dp"
+            android:textColor="#ff000000"/>
+
+        <TextView
+            android:id="@+id/expText"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_below="@id/todayText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#ff000000"
+            android:visibility="gone"
+            android:layout_marginTop ="20dp"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/expText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            style="@style/starRatingBar"/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>
